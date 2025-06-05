@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+
+    <div>
+        {{ form.title.label_tag }}<br>
+        {{ form.title }}
+    </div>
+
+    <div>
+        {{ form.ingredients.label_tag }}<br>
+        {{ form.ingredients }}
+    </div>
+
+    <div>
+        {{ form.preparation_time.label_tag }}<br>
+        {{ form.preparation_time }}
+    </div>
+
+    <div>
+        {{ form.instructions.label_tag }}<br>
+        {{ form.instructions }}
+    </div>
+
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+</form>
+
+
+{% endblock content %}

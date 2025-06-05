@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div id="home_intro">
+    <h1>🍽️ Welcome to RecipeHub – Your Kitchen Companion!</h1>
+    <p>
+        Discover, cook, and share delicious recipes from around the world, all in one place.
+        Whether you're a home cook or just starting out, RecipeHub makes it easy to find meals 
+        that match your taste, time, and skill level.
+    </p>
+    <p>
+        Use our search bar to find inspiration for breakfast, lunch, dinner, or dessert—
+        and save your favorite recipes for later.
+    </p>
+    <p><strong>Ready to spice up your kitchen? Let’s get cooking!</strong></p>
+</div>
+
+
+
+<a href="{% url 'recipe_new' %}">ADD RECIPE</a>
+
+{% endblock content %}
