@@ -1,17 +1,15 @@
-🍽️ Recipe Manager - Django Web App
+🍽️ Recipe Manager - Django Web Page
 📌 Project Overview
-Recipe Manager is a web-based application built using Django that allows users to add, view, and manage cooking recipes. It provides a clean and responsive interface where users can upload recipes with details like name, description, ingredients, preparation time, and images. The project is perfect for beginners learning full-stack development with Django.
+Recipe Manager is a web page built using Django that allows users to add, view, and manage cooking recipes. It provides a clean and responsive interface where users can upload recipes with details like name, description, ingredients and preparation time. The project is perfect for beginners learning full-stack development with Django.
 
 🔧 Features
-📝 Add new recipes with images
+📝 Add new recipes
 
 🔍 Search for recipes by name
 
 📃 View list of all recipes
 
 🚫 Displays "No recipes found" when the search doesn't match
-
-🖼️ Image upload support
 
 ✨ Simple and clean UI using HTML & CSS
 
